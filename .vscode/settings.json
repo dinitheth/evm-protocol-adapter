@@ -6,5 +6,19 @@
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
   "solidity.formatter": "forge",
-  "cSpell.words": ["expirable", "Hashers", "treaple", "solhint"]
+  "cSpell.words": [
+    "expirable",
+    "Hashers",
+    "treaple",
+    "solhint"
+  ],
+  "task.allowAutomaticTasks": true,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
 }

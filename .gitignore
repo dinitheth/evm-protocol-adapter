@@ -5,7 +5,6 @@ target/
 deps/
 node_modules/
 .juvix-build
-.vscode/*
 .idea/
 
 
@@ -20,3 +19,4 @@ contracts/broadcast/*/31337/
 .history
 *.nockma
 *.bkp
+config.bat
